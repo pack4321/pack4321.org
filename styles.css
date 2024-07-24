@@ -1,0 +1,64 @@
+/* Adjust header to Cub Scout blue */
+header {
+    background: #0048BA; /* Royal Blue */
+    color: #FFD700; /* Gold text */
+}
+
+/* Style adjustments for main content area */
+main {
+    padding: 20px;
+    background-color: #fff; /* Keep the background white for clarity */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    border: 2px solid #FFD700; /* Gold border */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+/* Link colors adjusted to Cub Scout theme */
+ul li a {
+    color: #0048BA; /* Royal Blue for links */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #FFD700; /* Gold on hover */
+    text-decoration: underline;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Additional playful elements */
+/* Add a fun font for headings */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fredoka One', cursive;
+}
+
+/* Badge-like buttons */
+.button {
+    background-color: #0048BA; /* Royal Blue */
+    color: #FFD700; /* Gold text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Rounded edges */
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+}
+
+.button:hover {
+    background-color: #FFD700;
+    color: #0048BA;
+}
